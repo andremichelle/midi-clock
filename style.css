@@ -1,0 +1,43 @@
+html, body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
+
+h1 {
+  margin: 0;
+  font-size: 20px; }
+
+h5 {
+  margin: 8px 0;
+  font-size: 16px; }
+
+label {
+  white-space: nowrap; }
+
+section.transport {
+  padding: 8px;
+  height: 20px;
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 12px;
+  align-items: center;
+  width: min-content; }
+  section.transport button {
+    width: 32px; }
+  section.transport input {
+    border: none;
+    font-size: 13px;
+    width: 44px;
+    background-color: #EEE; }
+
+form label.status {
+  color: darkorange; }
+form.devices fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none; }
+  form.devices fieldset label {
+    display: inline-block; }
+  form.devices fieldset input, form.devices fieldset span {
+    vertical-align: middle; }
+
+/*# sourceMappingURL=style.css.map */

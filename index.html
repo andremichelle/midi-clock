@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Midi Clock</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="clock.js"></script>
+</head>
+<body>
+<h1>Midi Clock Generator</h1>
+<h5>Transport</h5>
+<section class="transport">
+    <button id="toggle">▶︎</button>
+    <label>
+        <input type="number" min="30" max="300" value="120" id="bpm">
+        <span>bpm</span>
+    </label>
+</section>
+<h5>Devices</h5>
+<form class="devices">
+    <label class="status">Requesting midi...</label>
+    <fieldset>
+        <template>
+            <label>
+                <input type="checkbox">
+                <span>Untitled</span>
+            </label>
+        </template>
+    </fieldset>
+</form>
+</body>
+</html>

@@ -1,1 +1,1 @@
-# midi-clock
+# web-midi clock generator
